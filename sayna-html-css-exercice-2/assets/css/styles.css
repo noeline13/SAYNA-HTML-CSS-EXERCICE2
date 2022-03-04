@@ -1,0 +1,471 @@
+body {
+    margin: 0;
+}
+
+
+/*HEADER*/
+
+header {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    padding: 1% 10%;
+    justify-content: space-between;
+    background-color: #000;
+    border-bottom: 3px solid rgb(136, 134, 134);
+}
+
+.nav {
+    display: flex;
+}
+
+li {
+    font-size: 20px;
+    padding: 0 15%;
+    list-style: none;
+}
+
+li>a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo {
+    width: 40%;
+}
+
+.link {
+    font-size: 20px;
+    color: #3d9f96;
+}
+
+@media screen and ( max-width:600px) {
+    .nav,
+    .link {
+        display: none;
+    }
+}
+
+
+/*main*/
+
+main {
+    margin: 0%;
+    text-align: center;
+}
+
+@media screen and ( max-width:600px) {
+    h1 {
+        font-size: 25px !important;
+    }
+    h2 {
+        font-size: 14px !important;
+    }
+    p {
+        font-size: 14px !important;
+    }
+    .image {
+        width: 90% !important;
+        margin: 0 0 0 5% !important;
+    }
+    .image>img {
+        margin-bottom: -0.8% !important;
+    }
+}
+
+
+/*dark*/
+
+.dark {
+    background-color: #000;
+}
+
+h1 {
+    margin: 0%;
+    padding: 5% 0 1% 7%;
+    color: #fff;
+    font-size: 50px;
+    font-weight: lighter;
+    font-family: Raleway, Arial, sans-serif
+}
+
+h2 {
+    color: #3d9f96;
+    padding: 1% 0 1% 7%;
+}
+
+p {
+    color: #7e7e7e;
+    font-size: 26px;
+}
+
+button {
+    color: #fff;
+    margin: 2% 2% 10% 8%;
+    padding: 1% 6%;
+    border: none;
+    border-radius: 20px;
+    background-color: #3f857e;
+}
+
+.image {
+    width: 76%;
+    margin: 0 0 0 14%;
+}
+
+.image>img {
+    margin-bottom: -0.4%;
+}
+
+
+/*social media*/
+
+.social-media {
+    padding: 3% 0 1% 0;
+    background-color: #f0f8ff;
+}
+
+.social>img {
+    padding: 0 3.5%;
+}
+
+h3 {
+    padding-top: 2%;
+    color: #3d9f96;
+}
+
+@media screen and ( max-width:600px) {
+    .social>img {
+        width: 6% !important;
+    }
+    h3,
+    #exlu {
+        display: none;
+    }
+}
+
+
+/*checks*/
+
+.check>h1 {
+    font-size: 36px;
+    color: #000;
+    margin-right: 10%;
+}
+
+@media screen and ( max-width:600px) {
+    .check>p {
+        font-size: 17px !important;
+    }
+}
+
+
+/*awesomess*/
+
+.awesomess {
+    background-image: url('../img/map_bg.png');
+    background-position: 12%;
+    background-repeat: no-repeat;
+    padding: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.play {
+    width: 25%;
+}
+
+.awesome {
+    text-align: start;
+}
+
+.awesomes {
+    text-align: end;
+}
+
+.icon>h2 {
+    font-size: 28px;
+    color: #000;
+}
+
+.icon>p {
+    font-size: 20px;
+}
+
+@media screen and ( max-width:600px) {
+    .awesomess {
+        display: block;
+    }
+    .awesome,
+    .awesomes {
+        text-align: center;
+    }
+    .play {
+        width: 40%;
+    }
+    .icon>h2 {
+        font-size: 29px !important;
+    }
+    .icon>p {
+        font-size: 19px !important;
+    }
+}
+
+
+/*nullam*/
+
+.nullam {
+    padding: 8% 0 3% 0;
+    background-color: #000;
+}
+
+.nullam>img {
+    width: 10%;
+}
+
+.nullam>p {
+    font-size: 30px;
+}
+
+.nullam>h2 {
+    padding: 0 0.5% 0 0;
+}
+
+
+/*screen*/
+
+.screen {
+    padding: 0 0 5% 10%;
+    background-color: #faeded;
+}
+
+.title>h1 {
+    color: #000;
+    text-align: start;
+    font-size: 36px;
+}
+
+.sreenshoots {
+    padding-left: 4%;
+    display: flex;
+}
+
+figcaption {
+    font-weight: bolder;
+    text-align: start;
+}
+
+@media screen and ( max-width:600px) {
+    .sreenshoots {
+        padding-left: 4%;
+        display: block;
+    }
+    .title>h1 {
+        text-align: center;
+    }
+    figcaption {
+        text-align: center;
+        font-size: 19px;
+    }
+}
+
+
+/*double*/
+
+.double {
+    padding: 10%;
+}
+
+.double-one {
+    display: flex;
+    padding-bottom: 20%;
+    justify-content: space-evenly;
+}
+
+.composant {
+    width: 120%;
+}
+
+.litmus {
+    text-align: start;
+}
+
+.litmus>h1 {
+    padding: 0;
+    color: #000;
+}
+
+.litmus>p {
+    font-size: 26px;
+}
+
+.litmus>button {
+    margin: 11% 3% 0 0;
+    padding: 2% 10%;
+    font-size: 20px;
+}
+
+.double-two {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.phone {
+    width: 130%;
+}
+
+@media screen and ( max-width:600px) {
+    .double-one {
+        display: block;
+        justify-content: space-evenly;
+    }
+    .composant {
+        padding-left: 15%;
+        width: 80%;
+    }
+    .litmus {
+        text-align: center;
+    }
+    .double-two {
+        flex-direction: column;
+    }
+    .phone {
+        width: 60%;
+    }
+    .one {
+        order: 2;
+    }
+}
+
+
+/*footer*/
+
+@media screen and ( max-width:600px) {
+    .footer {
+        padding: 20% 0 0 10% !important;
+        display: block !important;
+        text-align: center;
+    }
+    .foot-logo {
+        width: 80% !important;
+    }
+    .foot-logo>p {
+        width: 100% !important;
+        font-size: 16px !important;
+    }
+    .foot-logo>img {
+        width: 80% !important;
+    }
+    .contact {
+        text-align: center !important;
+        width: 80% !important;
+        padding: 0 2% 0 0;
+    }
+    #list>li>a {
+        text-align: center;
+    }
+    #list {
+        padding: 4% 0 0 0 !important;
+    }
+    .form {
+        text-align: center !important;
+        padding: 2% 20% 0 0 !important;
+    }
+    .form>h1 {
+        padding: 2% 1.5% 0 0 !important;
+    }
+    .end {
+        flex-direction: column;
+    }
+    .end>p {
+        text-align: center;
+    }
+    .and {
+        width: 1000% !important;
+        padding: 2% 0% 0 0;
+    }
+}
+
+footer {
+    color: #000;
+}
+
+.footer {
+    padding: 5% 0 2% 15%;
+    background-color: #faeded;
+    display: flex;
+    line-height: 30px;
+}
+
+.foot-logo {
+    width: 48%;
+}
+
+.contact {
+    width: 39%;
+    padding: 0 2% 0 0;
+}
+
+.foot-logo>img {
+    width: 70%;
+}
+
+.foot-logo>p {
+    font-size: 20px;
+}
+
+.info {
+    padding-top: 1%;
+}
+
+.info>p {
+    font-size: 19px;
+}
+
+.info>h1 {
+    color: #000;
+    font-size: 26px;
+    font-weight: bolder;
+}
+
+#list>li>a {
+    text-align: start;
+    color: #7e7e7e;
+    padding-left: 0;
+}
+
+#list {
+    padding: 20% 0 0 0;
+}
+
+.form {
+    text-align: start;
+    padding: 2% 6% 0 0;
+}
+
+.contact {
+    text-align: start;
+}
+
+.contact>p {
+    padding: 3% 0 0 7%;
+}
+
+.end {
+    padding: 0 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.end>p {
+    font-size: 20px;
+}
+
+.and {
+    width: 23%;
+    padding: 2% 0% 0 0;
+}
+
+.and>img {
+    margin: 0 3% 0 0;
+}
